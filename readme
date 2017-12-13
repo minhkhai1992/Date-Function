@@ -1,0 +1,19 @@
+Purpose: To Practice designing a class that can be used in many applications. To Write and implement a thorough test plan. You are NOT to use any of the Java API date classes (Gregorian calendar, Date...)
+
+Write a class to hold data and perform operations on dates. Ie: January 2, 2015 or 3/15/2015
+
+On Paper, design the cass to hold a valid date. First Decide what fields you will need.
+
+Then decide what operation you will perform on the fields, what functionality the class Date will have.
+
+You must include a toString(), an equals() and compareTo() method.
+
+Methods required in addition to the constructor methods, the toString(), equals(), and compareTo() methods.
+
+Public Date add(int numDays)
+
+Public Date subtract(int numDays)
+
+Public int daysBetween(Date anotherDate)
+
+Public String getDate(char format)
